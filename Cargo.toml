@@ -1,0 +1,19 @@
+[package]
+name = "memcheck"
+version = "0.0.1"
+authors = ["Tably Team"]
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = """
+Allocation sanitizer for `GlobalAlloc`, which adds nominal bookkeeping to guard against incorrect `Layout`s and double-free.
+"""
+repository = "https://github.com/alecmocatta/memcheck"
+homepage = "https://github.com/alecmocatta/memcheck"
+documentation = "https://docs.rs/memcheck"
+readme = "README.md"
+
+[dependencies]
+static_assertions = "1"
+
+[dev-dependencies]
+rand = { version = "0.9", default-features = false, features = ["small_rng"] }

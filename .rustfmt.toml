@@ -1,0 +1,15 @@
+comment_width = 120
+fn_params_layout = "Compressed"
+hard_tabs = true
+imports_granularity = "Crate"
+imports_layout = "Mixed"
+max_width = 100
+use_field_init_shorthand = true
+use_small_heuristics = "Max"
+style_edition = "2024"
+wrap_comments = false
+merge_derives = false
+
+# To enable when stable
+# wrap_comments = true # https://github.com/rust-lang/rustfmt/issues/3347
+# reorder_impl_items = true # https://github.com/rust-lang/rustfmt/issues/3363
